@@ -18,7 +18,7 @@ function App() {
   console.log(state)
   return (
     <div className='app'>
-      <BrowserRouter>
+      <BrowserRouter basename='/vdcom'>
         <Routes>
           <Route path="/clients" element={<Clients />} />
           <Route path='/' element={<Login />} />
