@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vdcom/static/css/main.39ba2d7c.css",
-    "main.js": "/vdcom/static/js/main.f119f0cf.js",
+    "main.js": "/vdcom/static/js/main.f37d7e6c.js",
     "static/js/787.22897394.chunk.js": "/vdcom/static/js/787.22897394.chunk.js",
     "index.html": "/vdcom/index.html",
     "main.39ba2d7c.css.map": "/vdcom/static/css/main.39ba2d7c.css.map",
-    "main.f119f0cf.js.map": "/vdcom/static/js/main.f119f0cf.js.map",
+    "main.f37d7e6c.js.map": "/vdcom/static/js/main.f37d7e6c.js.map",
     "787.22897394.chunk.js.map": "/vdcom/static/js/787.22897394.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39ba2d7c.css",
-    "static/js/main.f119f0cf.js"
+    "static/js/main.f37d7e6c.js"
   ]
 }
