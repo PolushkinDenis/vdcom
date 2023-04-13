@@ -29,7 +29,7 @@ const NewContact = ({ visible = false, onClose }) => {
     const addContact = () => {
         const check = contacts.filter(contact => contact.id == form.id)
         if (check.length === 0) {
-            if (form.name !== "" || form.email !== "" || form.ARD !== "" || form.TRN !== "" || form.address !== "" || form.company !== "" || form.phone !== "" || form.year !== "") {
+            if (form.name !== "" && form.email !== "" && form.ARD !== "" && form.TRN !== "" && form.address !== "" && form.company !== "" && form.phone !== "" && form.year !== "") {
                 const formatForm = { ...form }
                 formatForm.year = formatForm.year.split('-').reverse().join('-')
                 formatForm.ARD = formatForm.ARD.split('-').reverse().join('-')

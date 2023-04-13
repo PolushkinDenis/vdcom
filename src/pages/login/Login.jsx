@@ -18,7 +18,7 @@ const Login = () => {
                 auth: true
             }
             dispatch(authSlice.actions.login(userData))
-            navigate('/clients')
+            navigate('/vdcom/clients')
         }
     }
 

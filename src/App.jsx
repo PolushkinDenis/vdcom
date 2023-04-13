@@ -18,10 +18,10 @@ function App() {
   console.log(state)
   return (
     <div className='app'>
-      <BrowserRouter basename='/vdcom'>
+      <BrowserRouter>
         <Routes>
-          <Route path="/clients" element={<Clients />} />
-          <Route path='/' element={<Login />} />
+          <Route path="/vdcom/clients" element={<Clients />} />
+          <Route path='/vdcom/' element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

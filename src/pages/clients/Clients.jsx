@@ -44,7 +44,7 @@ const Clients = () => {
             auth: false
         }
         dispatch(authSlice.actions.login(userData))
-        navigate('/')
+        navigate('/vdcom/')
     }
 
     useEffect(() => {
@@ -53,7 +53,7 @@ const Clients = () => {
 
     useEffect(() => {
         if (login.login === "") {
-            navigate('/')
+            navigate('/vdcom/')
         }
         else {
             let max = contacts.reduce((acc, curr) => acc.id > curr.id ? acc : curr)
