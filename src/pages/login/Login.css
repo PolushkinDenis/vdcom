@@ -1,0 +1,38 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+p {
+    margin: 0;
+}
+.form__login {
+    display: flex;
+    flex-direction: column;
+}
+.form__login input {
+    width: 300px;
+    height: 40px;
+}
+.form__login {
+    margin-top: 10px;
+}
+span {
+    margin-bottom: 5px;
+}
+.form__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form__button button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}

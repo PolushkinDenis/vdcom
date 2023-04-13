@@ -1,0 +1,132 @@
+.clients {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    width: 100vw;
+}
+
+.clients__nemu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.logo {
+    margin: 20px;
+}
+.nemu__footer hr {
+    margin-top: 20px;
+}
+.footer__btn {
+    display: flex;
+    justify-content: center;
+}
+.nemu__footer button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.nemu__footer span{
+    margin-left: 10px;
+}
+.clients__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 29px 13px 23px;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 522px;
+    height: 50px;
+    background: #F2F2F2;
+    border-radius: 6px;
+}
+
+.header__search img {
+    margin-left: 21px;
+    margin-right: 15px;
+}
+
+.header__search input {
+    background: none;
+    outline: none;
+    border: none;
+    width: 490px;
+}
+
+.header__user {
+    display: flex;
+    align-items: center;
+}
+.user__info {
+    margin-left: 20px;
+}
+.contacts__box {
+    background-color: #EEEAE7;
+    padding: 0 29px 0px 23px;
+}
+
+.contacts__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts__header button {
+    width: 141px;
+    height: 40px;
+    left: 1558px;
+    background: #EDBC4A;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.contacts__header h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.menu__clients {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.menu__clients-active {
+    height: 54px;
+    background: rgba(237, 188, 74, 0.2);
+}
+
+.menu__clients img {
+    margin-right: 9px;
+}
+
+.menu__clients {
+    margin-top: 60px;
+}

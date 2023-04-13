@@ -1,0 +1,22 @@
+.actions button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.actions button:first-child {
+    margin-right: 10px;
+}
+
+tr {
+    height: 78px;
+    background-color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.8;
+}
