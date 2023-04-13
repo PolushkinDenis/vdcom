@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vdcom/static/css/main.39ba2d7c.css",
+    "main.js": "/vdcom/static/js/main.5b33eac5.js",
+    "static/js/787.22897394.chunk.js": "/vdcom/static/js/787.22897394.chunk.js",
+    "index.html": "/vdcom/index.html",
+    "main.39ba2d7c.css.map": "/vdcom/static/css/main.39ba2d7c.css.map",
+    "main.5b33eac5.js.map": "/vdcom/static/js/main.5b33eac5.js.map",
+    "787.22897394.chunk.js.map": "/vdcom/static/js/787.22897394.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39ba2d7c.css",
+    "static/js/main.5b33eac5.js"
+  ]
+}
